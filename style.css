@@ -1,104 +1,123 @@
 /* CSS RESET */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Sigmar One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 /* GENERICS */
 body {
-  background: midnightblue;
-  color: white;
+    background: midnightblue;
+    color: white;
 }
 
 /* HEADER AND 1 BLOCK */
 .page-discord {
-  width: 100vw !important;
+    width: 100vw;
 }
 
 .group-chat {
-  margin-top: 30px;
-  text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .header-img {
-  width: 100%;
+    width: 100%;
 }
 
 .banner {
-  text-align: center;
-  border-radius: 20px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .font-base {
-  font-family: "Arima", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .base-button {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
-  width: 100%;
+    font-size: 16px;
+    justify-self: flex-end;
+    align-self: center;
+    height: fit-content;
+    padding: 8px 16px;
+    border-radius: 15px;
+    width: 70%;
+    cursor: pointer;
+  
 }
 
 .bg-white {
-  background-color: white;
+    background-color: white;
+    margin-bottom: 10px;
 }
 
 .bg-violet {
-  background-color: cornflowerblue;
+    background-color: royalblue;
+    color:white;
 }
 
 .black-text {
-  color: black;
+    color: black;
 }
 
 .buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 /* CARD */
 .card {
-  background: #5865f2;
-  color: white;
-  width: 360px;
-  padding: 32px;
-  border-radius: 28px;
+    background: slateblue;
+    color: white;
+    width: 360px;
+    padding: 32px;
+    border-radius: 28px;
+    margin-bottom: 50px;
+}
+
+.block-card{
+    justify-content: center;
+    align-items: center flex column;
+    padding-left: 120px;
 }
 
 .card h2 {
-  font-size: 28px;
-  font-weight: 900;
-  line-height: 1.1;
-  margin-bottom: 16px;
-  text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .card p {
-  font-size: 14px;
-  line-height: 1.6;
-  opacity: 0.9;
-  margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 28px;
 }
 
 .card-image {
     border-radius: 20px;
-    padding: 16px;
+    padding: 20px;
 }
 
 .card-image img {
-  width: 100%;
-  border-radius: 12px;
-  display: block;
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+p{
+  font-family:Arial, Helvetica, sans-serif;
 }
