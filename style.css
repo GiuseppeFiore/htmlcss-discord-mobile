@@ -14,7 +14,7 @@ body {
   color: white;
 }
 
-/* HEADER */
+/* HEADER AND 1 BLOCK */
 .page-discord {
   width: 100vw !important;
 }
@@ -66,4 +66,39 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* CARD */
+.card {
+  background: #5865f2;
+  color: white;
+  width: 360px;
+  padding: 32px;
+  border-radius: 28px;
+}
+
+.card h2 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.card-image {
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
 }
