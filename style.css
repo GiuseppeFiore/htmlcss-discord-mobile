@@ -98,9 +98,11 @@ h1{
 }
 
 .block-card{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center flex column;
-    padding-left: 120px;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .card h2 {
@@ -138,7 +140,7 @@ p {
 .card_icon{
     width:100px;
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: -50px;
+    left: 40%;
     transform: translate (-50%,-50%)
 }
